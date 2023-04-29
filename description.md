@@ -10,14 +10,14 @@
 * протокол данных - строковый протокол плоттера.
 
 MASTER общается с EXT_MODULE посредством AT-команд. Ниже приведён список команд и ожидаемые ответы:
-|№|Request from MASTER                                     |Response from EXT_MODULE                              |
-|-|:------------------------------------------------------:|:----------------------------------------------------:|
-|1|"AT"                                                    |"OK"                                                  |
-|2|"AT+SCFG=<uuid>,<state>,<range_index>,<polling_period>" |"OK" or "ERROR"                                       |
-|3|"AT+SAU?"                                               |"AT+SAU=<uuid>" or "ERROR"                            |
-|4|"AT+SSG?"                                               |\<value in data format\>                              |
-|5|"AT+SCS?"                                               |\<value in data format\> \<value in data format\> ... |
-|6|"AT+SPS?"                                               |"OK"                                                  |
+|№|Request from MASTER                                     |Response from EXT_MODULE                                   |
+|-|:------------------------------------------------------:|:---------------------------------------------------------:|
+|1|"AT"                                                    |"OK"                                                       |
+|2|"AT+SCFG=<uuid>,<state>,<range_index>,<polling_period>" |"OK" or "ERROR"                                            |
+|3|"AT+SAU?"                                               |"AT+SAU=<uuid>" or "ERROR"                                 |
+|4|"AT+SSG?"                                               |\<value in data format\>                                   |
+|5|"ATSCS"                                                 |"OK" \<value in data format\> \<value in data format\> ... |
+|6|"ATSPS"                                                 |"OK"                                                       |
 
 Каждая посылка (кроме **value in data format**) должна заканчиваться ESCAPE-последовательностью "\r\n".
   
@@ -32,5 +32,5 @@ MASTER общается с EXT_MODULE посредством AT-команд. Н
     * <polling_period> - период отправки значений датчика в непрерывном режиме. Задаётся в миллисекундах в формате "integer", например - "500".
 3. Запрос UUID текущего активного датчика (Sensor Active UUID). EXT_MODULE должен ответить в формате "AT+SAU=\<uuid\>" если датчик активен, или "AT+SAU=\<NONE\>", если активных датчиков нет.
 4. Однократный запрос значений активного датчика (Sensor Single Get). EXT_MODULE должен однократно передать значение(-я) датчика в специфическом data-формате.
-5. Старт непрерывного опроса активного датчика (Sensor Continuous Start). EXT_MODULE должен начать передачу значения(-ий) в соответствии с установленных переодом опроса.
+5. Старт непрерывного опроса активного датчика (Sensor Continuous Start). EXT_MODULE должен ответить "OK", после чего начать передачу значения(-ий) в соответствии с установленным переодом опроса.
 6. Остановка непрерывного опроса активного датчика (Sensor Polling Stop). EXT_MODULE должен остановить опрос датчика и ответить "OK".
