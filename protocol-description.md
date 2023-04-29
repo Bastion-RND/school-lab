@@ -89,4 +89,6 @@ MASTER общается с EXT_MODULE посредством AT-команд. Р
 6. **+BPAS** - остановка непрерывного опроса активного датчика (Break Polling of Active Sensor). Данная команда представлена в двух типах: Test и Execution. В варианте Execution EXT_MODULE должен остановить опрос датчика и ответить "OK".
 ***
 Типичный порядок работы с датчиком:
-   
+<p align="center">
+  <img src="/diagrams/protocol-flow.png">
+</p>
