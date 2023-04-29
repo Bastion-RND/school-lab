@@ -50,20 +50,20 @@ MASTER общается с EXT_MODULE посредством AT-команд. Р
 Особняком стоит специализированная команда в формате 'AT'. Это команда для проверки связи с ведомым, ответ на неё должен быть 'OK'.
 ***
 Ниже приведён список команд настоящего протокола и ожидаемые ответы:
-|№  |Request from MASTER       |Command type |Response from EXT_MODULE                               |
-|---|:------------------------:|-------------|:-----------------------------------------------------:|
-|1  |'AT'                      |Check        |'OK'                                                   |
-|2.1|'AT+SCFG=?'               |Test         |'OK'                                                   |
-|2.2|'AT+SCFG?'                |Read         |'AT+SCFG:[<sensor_params>]&[...]' 'OK'                 |
-|2.3|'AT+SCFG=<sensor_params>' |Set          |'OK' or 'ERROR'                                        |
-|3.1|'AT+PAS=?'                |Test         |'OK'                                                   |  
-|3.2|'AT+PAS?'                 |Read         |'AT+PAS:<sensor_params>' 'OK' or 'AT+SCFG:"NONE"' 'OK' |
-|4.1|'AT+SGAS=?                |Test         |'OK'                                                   |  
-|4.2|'AT+SGAS'                 |Execution    |\<value(-s) in data format\>                           |
-|5.1|'AT+SPAS=?'               |Test         |'OK'                                                   |
-|5.1|'AT+SPAS'                 |Execution    |\<value in data format\> \<value in data format\> ...  |
-|6.1|'AT+BPAS=?'               |Test         |'OK'                                                   |
-|6.1|'AT+BPAS'                 |Execution    |'OK'                                                   |
+|№  |Request from MASTER       |Command type |Response from EXT_MODULE                                       |
+|---|:------------------------:|-------------|:-------------------------------------------------------------:|
+|1  |'AT'                      |Check        |'OK'                                                           |
+|2.1|'AT+SCFG=?'               |Test         |'OK'                                                           |
+|2.2|'AT+SCFG?'                |Read         |'AT+SCFG:[<sensor_params>]&[...]' 'OK'                         |
+|2.3|'AT+SCFG=<sensor_params>' |Set          |'OK' or 'ERROR'                                                |
+|3.1|'AT+PAS=?'                |Test         |'OK'                                                           |  
+|3.2|'AT+PAS?'                 |Read         |'AT+PAS:<sensor_params>' 'OK' or 'AT+SCFG:"NONE"' 'OK'         |
+|4.1|'AT+SGAS=?                |Test         |'OK'                                                           |  
+|4.2|'AT+SGAS'                 |Execution    |\<value(-s) in data format\>                                   |
+|5.1|'AT+SPAS=?'               |Test         |'OK'                                                           |
+|5.1|'AT+SPAS'                 |Execution    |\<value(-s) in data format\> \<value(-s) in data format\> ...  |
+|6.1|'AT+BPAS=?'               |Test         |'OK'                                                           |
+|6.1|'AT+BPAS'                 |Execution    |'OK'                                                           |
 
 Требования к формату команд и ответов:
 * Допустимые типы данных в параметрах - строка, целочисленное число, число с плавающей точкой.
@@ -87,3 +87,6 @@ MASTER общается с EXT_MODULE посредством AT-команд. Р
 4. **+SGAS** - однократный запрос значений активного датчика (Single Get from Active Sensor). Данная команда представлена в двух типах: Test и Execution. В варианте Execution EXT_MODULE должен однократно передать значение(-я) датчика в специфическом data-формате, определённом в конфигурации датчика.
 5. **+SPAS** - старт непрерывного опроса активного датчика (Start Polling of Active Sensor). Данная команда представлена в двух типах: Test и Execution. В варианте Execution EXT_MODULE должен начать передачу значения(-ий) датчика в специфическом data-формате в соответствии с установленным в конфигурации периодом опроса.
 6. **+BPAS** - остановка непрерывного опроса активного датчика (Break Polling of Active Sensor). Данная команда представлена в двух типах: Test и Execution. В варианте Execution EXT_MODULE должен остановить опрос датчика и ответить "OK".
+***
+Типичный порядок работы с датчиком:
+   
