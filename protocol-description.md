@@ -57,7 +57,7 @@ MASTER общается с EXT_MODULE посредством AT-команд. Р
 |2.2|'AT+SCFG?'                |Read         |'AT+SCFG:[<sensor_params>]&[...]' 'OK'                         |
 |2.3|'AT+SCFG=<sensor_params>' |Set          |'OK' or 'ERROR'                                                |
 |3.1|'AT+PAS=?'                |Test         |'OK'                                                           |  
-|3.2|'AT+PAS?'                 |Read         |'AT+PAS:<sensor_params>' 'OK' or 'AT+SCFG:"NONE"' 'OK'         |
+|3.2|'AT+PAS?'                 |Read         |'AT+PAS:<sensor_params>' 'OK' or 'AT+PAS:"NONE"' 'OK'         |
 |4.1|'AT+SGAS=?                |Test         |'OK'                                                           |  
 |4.2|'AT+SGAS'                 |Execution    |\<value(-s) in data format\>                                   |
 |5.1|'AT+SPAS=?'               |Test         |'OK'                                                           |
