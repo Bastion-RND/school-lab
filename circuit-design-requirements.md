@@ -5,5 +5,5 @@
 </p>
 Следует помнить, что для прошивки данного модуля потребуется или внешний программатор (для него нужно будет вывести разъём) или разместить программатор непосредственно на плате целевого устройства. Схема для второго случая представлена ниже:
 <p align="center">
-  <img src="/related-documents/schematics/esp32-wrover-e-view-single-module.png">
+  <img src="/related-documents/schematics/esp32-wrover-e-single-module.png">
 </p>
