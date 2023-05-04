@@ -181,5 +181,5 @@ MASTER отправляет в сторону MODULE команды и полу�
 ***
 ## Типичный порядок работы с MODULE:
 <p align="center">
-  <img src="/diagrams/protocol-flow.png">
+  <img src="/related-documents/diagrams/protocol-flow.png">
 </p>
