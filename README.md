@@ -1,4 +1,5 @@
-# school-lab-device-external-developers
+# school-lab
+## Корневой репозиторий проекта "Школьная лаборатория"
 [![Arduino](https://img.shields.io/static/v1?style=for-the-badge&label=Espressif&message=ESP32-WROVER-E&logo=Espressif&color=red&labelColor=grey)](https://espressif.com/)
 [![Arduino](https://img.shields.io/static/v1?style=for-the-badge&label=Micropython&message=1.19.1&logo=Micropython&color=red&labelColor=grey)](https://micropython.org/)  
 Здесь содержится документация, необходимая для внешних разработчиков проекта "Школьная лаборатория"  
