@@ -6,3 +6,9 @@
 В [этом файле](/development-guide.md) общее описание процесса разработки внешнего модуля.  
 В [этом файле](/protocol-description.md) описание протокола взаимодействия внешнего модуля с нашим ядром лаборатории.  
 В [этом файле](/circuit-design-requirements.md) описание схемотехники и распиновки.
+***
+## Ссылки на связанные репозитории
+[Прошивка устройства](https://github.com/Bastion-RND/SchoolLabDevice)  
+[Приложение для программирования и проверки устройства](https://github.com/Bastion-RND/school-lab-device-service-app)  
+[Имитатор внешнего MODULE](https://github.com/Bastion-RND/school-lab-device-fake-sensor)  
+[Приложение](https://github.com/Bastion-RND/school_lab)  
