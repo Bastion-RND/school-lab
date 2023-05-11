@@ -1,0 +1,60 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575005-eca0-11ec-8ea0-1337ac062022",
+  "description": "Электрическая проводимость",
+  "info": {
+    "title": "Электрическая проводимость",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": " См",
+      "title": "Проводимость",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 0.0002,
+            "precision": 0,
+            "factor": "MICRO",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": 0.0,
+            "max": 0.002,
+            "precision": 0,
+            "factor": "MICRO",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": 0.0,
+            "max": 0.02,
+            "precision": 0,
+            "factor": "MICRO",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": 0.0,
+            "max": 0.1,
+            "precision": 0,
+            "factor": "MICRO",
+            "calibrationPointsMin": 2
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": "Электрическая проводимость",
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

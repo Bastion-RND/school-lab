@@ -1,0 +1,23 @@
+{
+  "$schema": "schema/multisensor.schema.json",
+  "description": "Экспериментальная лаборатория (для тестов)",
+  "uuid": "00005100-0000-1000-8000-00805f9b34fb",
+  "disabled": true,
+  "title": "Dummy lab",
+  "advName": "Dummy #",
+  "moduleName": "lib.laboratories.Dummy",
+  "sensors": [
+    {
+      "description": "Dummy sensor 1",
+      "uuid": "f001da7a-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Dummy sensor 2",
+      "uuid": "f002da7a-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Dummy sensor 3",
+      "uuid": "f003da7a-eca0-11ec-8ea0-1337ac062022"
+    }
+  ]
+}

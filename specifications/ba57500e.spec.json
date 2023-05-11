@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba57500e-eca0-11ec-8ea0-1337ac062022",
+  "description": "Относительная влажность воздуха",
+  "info": {
+    "title": "Относительная влажность воздуха",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "%",
+      "title": "Относительная влажность",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 100.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

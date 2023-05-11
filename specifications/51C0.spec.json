@@ -1,0 +1,21 @@
+{
+  "$schema": "schema/multisensor.schema.json",
+  "uuid": "000051C0-0000-1000-8000-00805f9b34fb",
+  "title": "ОПС",
+  "advName": "OPS #",
+  "moduleName": "lib.laboratories.OPS",
+  "sensors": [
+    {
+      "description": "Температура воздуха",
+      "uuid": "ba575002-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Относительная влажность воздуха",
+      "uuid": "ba575003-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Уровень освещенности",
+      "uuid": "ba575004-eca0-11ec-8ea0-1337ac062022"
+    }
+  ]
+}

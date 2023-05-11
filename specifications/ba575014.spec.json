@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575014-eca0-11ec-8ea0-1337ac062022",
+  "description": "Уровень шума",
+  "info": {
+    "title": "Шум",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "Па",
+      "title": "Шум",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 2.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

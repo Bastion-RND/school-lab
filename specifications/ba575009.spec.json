@@ -1,0 +1,46 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575009-eca0-11ec-8ea0-1337ac062022",
+  "description": "Сила тока",
+  "info": {
+    "title": "Сила тока",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": " А",
+      "title": "Сила тока",
+      "range": {
+        "list": [
+          {
+            "min": -5.0,
+            "max": 5.0,
+            "precision": 3,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": -1.0,
+            "max": 1.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 1
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

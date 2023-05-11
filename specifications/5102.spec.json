@@ -1,0 +1,33 @@
+{
+  "$schema": "schema/multisensor.schema.json",
+  "uuid": "00005102-0000-1000-8000-00805f9b34fb",
+  "title": "Химия",
+  "advName": "Chemistry #",
+  "moduleName": "lib.laboratories.Chemistry",
+  "sensors": [
+    {
+      "description": "Водородный показатель (pH)",
+      "uuid": "ba575008-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Оптическая плотность среды",
+      "uuid": "ba57500C-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Температура (ЩУП)",
+      "uuid": "ba575001-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Электрическая проводимость",
+      "uuid": "ba575005-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "PH – показатель среды и температура (ЩУП)",
+      "uuid": "ba575C04-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Температура (ЩУП) и электрическая проводимость",
+      "uuid": "ba575C05-eca0-11ec-8ea0-1337ac062022"
+    }
+  ]
+}

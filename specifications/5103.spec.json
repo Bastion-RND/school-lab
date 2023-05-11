@@ -1,0 +1,37 @@
+{
+  "$schema": "schema/multisensor.schema.json",
+  "uuid": "00005103-0000-1000-8000-00805f9b34fb",
+  "title": "Биология",
+  "advName": "Biology #",
+  "moduleName": "lib.laboratories.Chemistry",
+  "sensors": [
+    {
+      "description": "Водородный показатель (pH)",
+      "uuid": "ba575008-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Температура (ЩУП)",
+      "uuid": "ba575001-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Температура воздуха",
+      "uuid": "ba575002-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Относительная влажность воздуха",
+      "uuid": "ba575003-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Уровень освещенности",
+      "uuid": "ba575004-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Водородный показатель (pH) и температура (ЩУП)",
+      "uuid": "ba575C04-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Температура и относительная влажность воздуха",
+      "uuid": "ba575C01-eca0-11ec-8ea0-1337ac062022"
+    }
+  ]
+}

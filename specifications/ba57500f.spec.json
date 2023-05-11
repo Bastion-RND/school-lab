@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba57500f-eca0-11ec-8ea0-1337ac062022",
+  "description": "Тензодатчик",
+  "info": {
+    "title": "Bec? Сила?",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "г",
+      "title": "Вес",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 50.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

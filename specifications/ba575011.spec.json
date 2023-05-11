@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575011-eca0-11ec-8ea0-1337ac062022",
+  "description": "Двуокись углерода",
+  "info": {
+    "title": "Концентрация CO2",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "ppm",
+      "title": "Двуокись углерода",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 5000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

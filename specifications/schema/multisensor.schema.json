@@ -1,0 +1,79 @@
+{
+  "$id": "multisensor.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "School Laboratory Configuration",
+  "description": "School Laboratory multisensor (lab) config",
+  "$defs": {
+    "uuid": {
+      "type": "string",
+      "minLength": 36,
+      "maxLength": 36
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 256
+    },
+    "moduleName": {
+      "type": "string",
+      "maxLength": 32
+    }
+  },
+  "type": "object",
+  "properties": {
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "uuid": {
+      "$ref": "#/$defs/uuid"
+    },
+    "title": {
+      "$ref": "#/$defs/title"
+    },
+    "description": {
+      "$ref": "#/$defs/description"
+    },
+    "moduleName": {
+      "$ref": "#/$defs/moduleName"
+    },
+    "advName": {
+      "type": "string",
+      "maxLength": 16
+    },
+    "sensors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "$ref": "#/$defs/title"
+          },
+          "description": {
+            "$ref": "#/$defs/description"
+          },
+          "uuid": {
+            "$ref": "#/$defs/uuid"
+          }
+        },
+        "required": [
+          "description",
+          "uuid"
+        ]
+      }
+    }
+  },
+  "required": [
+    "uuid",
+    "sensors",
+    "advName",
+    "moduleName"
+  ]
+}

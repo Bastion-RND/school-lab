@@ -1,0 +1,46 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575008-eca0-11ec-8ea0-1337ac062022",
+  "description": "Водородный показатель (pH)",
+  "info": {
+    "title": "Водородный показатель (pH)",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": " pH",
+      "title": "Водородный показатель",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 14.0,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": 4.0,
+            "max": 10.0,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

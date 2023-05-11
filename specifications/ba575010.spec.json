@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575010-eca0-11ec-8ea0-1337ac062022",
+  "description": "Артериальное давление",
+  "info": {
+    "title": "Артериальное давление",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "Па",
+      "title": "Давление",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 40000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

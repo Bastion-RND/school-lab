@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575018-eca0-11ec-8ea0-1337ac062022",
+  "description": "Датчик хлорид-ионов",
+  "info": {
+    "title": "Хлорид-ионы",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "моль/л",
+      "title": "Хлорид-ионы",
+      "range": {
+        "list": [
+          {
+            "min": 0.00003,
+            "max": 1.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

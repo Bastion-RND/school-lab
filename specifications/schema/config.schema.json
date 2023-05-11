@@ -1,0 +1,41 @@
+{
+  "$id": "config.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "School Laboratory Configuration",
+  "description": "School Laboratory instance config",
+  "type": "object",
+  "properties": {
+    "uuid": {
+      "type": "string",
+      "enum": [
+        "DUMMY",
+        "PHYSICS",
+        "BIOLOGY",
+        "CHEMISTRY",
+        "OPS"
+      ],
+      "default": "NORMAL"
+    },
+    "firmware_revision": {
+      "type": "string",
+      "minLength": 5
+    },
+    "hardware_revision": {
+      "type": "string",
+      "minLength": 7
+    },
+    "deviceNameSuffix": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 4
+    }
+  },
+  "required": [
+    "uuid",
+    "firmware_revision",
+    "hardware_revision",
+    "deviceNameSuffix"
+  ]
+}

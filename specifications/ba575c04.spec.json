@@ -1,0 +1,79 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575c04-eca0-11ec-8ea0-1337ac062022",
+  "description": "PH – показатель среды и температура (термопара)",
+  "info": {
+    "title": "PH – показатель среды и температура (ЩУП)",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": " pH",
+      "title": "Водородный показатель",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 14.0,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 4.0,
+            "max": 10.0,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    },
+    {
+      "unit": "°C",
+      "title": "Температура",
+      "range": {
+        "list": [
+          {
+            "min": -100.0,
+            "max": 1000.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": -40.0,
+            "max": 360.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    },
+    {
+      "title": "Термопара",
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 1
+    }
+  ]
+}

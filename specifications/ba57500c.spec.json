@@ -1,0 +1,55 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba57500c-eca0-11ec-8ea0-1337ac062022",
+  "description": "Оптическая плотность",
+  "info": {
+    "title": "Оптическая плотность среды",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": " D",
+      "title": "Экстинкция",
+      "range": {
+        "list": [
+          {
+            "title": "λ 470",
+            "min": 0,
+            "max": 2,
+            "precision": 3,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "title": "λ 525",
+            "min": 0,
+            "max": 2,
+            "precision": 3,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "title": "λ 630",
+            "min": 0,
+            "max": 2,
+            "precision": 3,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 1
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "current",
+        "reference",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

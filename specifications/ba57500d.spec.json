@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba57500d-eca0-11ec-8ea0-1337ac062022",
+  "description": "Температура воздуха",
+  "info": {
+    "title": "Температура воздуха",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "°C",
+      "title": "Температура",
+      "range": {
+        "list": [
+          {
+            "min": -40.0,
+            "max": 80.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575012-eca0-11ec-8ea0-1337ac062022",
+  "description": "Электрокардиограмма",
+  "info": {
+    "title": "ЭКГ",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "V",
+      "title": "ЭКГ",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 3.3,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

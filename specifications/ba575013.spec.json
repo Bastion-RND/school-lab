@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575013-eca0-11ec-8ea0-1337ac062022",
+  "description": "Частота сердечных сокращений",
+  "info": {
+    "title": "ЧСС",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "шт",
+      "title": "ЧСС",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 200.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

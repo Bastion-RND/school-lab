@@ -1,0 +1,41 @@
+{
+  "$schema": "schema/multisensor.schema.json",
+  "uuid": "00005101-0000-1000-8000-00805f9b34fb",
+  "title": "Физика",
+  "advName": "Physics #",
+  "moduleName": "lib.laboratories.Physics",
+  "sensors": [
+    {
+      "description": "Напряжение",
+      "uuid": "ba57500A-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Сила тока",
+      "uuid": "ba575009-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Индукция магнитного поля",
+      "uuid": "ba575007-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Температура (ЩУП)",
+      "uuid": "ba575001-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Давление воздуха",
+      "uuid": "ba575006-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Ускорение по осям",
+      "uuid": "ba57500B-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Напряжение и ток",
+      "uuid": "ba575C02-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Сила тока и температура (ЩУП)",
+      "uuid": "ba575C03-eca0-11ec-8ea0-1337ac062022"
+    }
+  ]
+}

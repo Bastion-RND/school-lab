@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575007-eca0-11ec-8ea0-1337ac062022",
+  "description": "Индукция магнитного поля",
+  "info": {
+    "title": "Индукция магнитного поля",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": " Тл",
+      "title": "Магнитная индукция",
+      "range": {
+        "list": [
+          {
+            "min": -0.175,
+            "max": 0.175,
+            "precision": 2,
+            "factor": "MILLI",
+            "calibrationPointsMin": 2
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

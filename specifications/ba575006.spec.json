@@ -1,0 +1,46 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575006-eca0-11ec-8ea0-1337ac062022",
+  "description": "Абсолютное давление воздуха",
+  "info": {
+    "title": "Давление воздуха",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": " Па",
+      "title": "Давление",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 700000.0,
+            "precision": 0,
+            "factor": "KILO",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": 0.0,
+            "max": 350000.0,
+            "precision": 0,
+            "factor": "KILO",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 1
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": "Давление воздуха",
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

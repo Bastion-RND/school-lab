@@ -1,0 +1,77 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba57500b-eca0-11ec-8ea0-1337ac062022",
+  "description": "Ускорение (акселерометр)",
+  "info": {
+    "title": "Ускорение по осям",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": " g",
+      "title": "Ускорение",
+      "range": {
+        "list": [
+          {
+            "min": -2.0,
+            "max": 2.0,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          },
+          {
+            "min": -4.0,
+            "max": 4.0,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": -8.0,
+            "max": 8.0,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": -16.0,
+            "max": 16.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": "Ось X",
+      "options": [
+        "chart",
+        "gauge",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    },
+    {
+      "title": "Ось Y",
+      "options": [
+        "chart",
+        "gauge",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    },
+    {
+      "title": "Ось Z",
+      "options": [
+        "chart",
+        "gauge",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

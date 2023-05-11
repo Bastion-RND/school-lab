@@ -1,0 +1,65 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575c01-eca0-11ec-8ea0-1337ac062022",
+  "description": "Температура + влажность воздуха",
+  "info": {
+    "title": "Температура и относительная влажность воздуха",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "°C",
+      "title": "Температура",
+      "range": {
+        "list": [
+          {
+            "min": -40.0,
+            "max": 125.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    },
+    {
+      "unit": "%",
+      "title": "Относительная влажность",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 100.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    },
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 1
+    }
+  ]
+}

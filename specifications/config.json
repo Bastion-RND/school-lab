@@ -1,0 +1,7 @@
+{
+  "$schema": "schema/config.schema.json",
+  "uuid": "PHYSICS",
+  "firmware_revision": "1.1.7",
+  "hardware_revision": "K020522-1",
+  "deviceNameSuffix": null
+}

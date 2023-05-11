@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575017-eca0-11ec-8ea0-1337ac062022",
+  "description": "Датчик нитрат-ионов",
+  "info": {
+    "title": "Нитрат-ионы",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "моль/л",
+      "title": "Нитрат-ионы",
+      "range": {
+        "list": [
+          {
+            "min": 0.00005,
+            "max": 0.5,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575c03-eca0-11ec-8ea0-1337ac062022",
+  "description": "Сила тока и температура (термопара)",
+  "info": {
+    "title": "Сила тока и температура (ЩУП)",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": " А",
+      "title": "Сила тока",
+      "range": {
+        "list": [
+          {
+            "min": -1.0,
+            "max": 1.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": -5.0,
+            "max": 5.0,
+            "precision": 3,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    },
+    {
+      "unit": "°C",
+      "title": "Температура",
+      "range": {
+        "list": [
+          {
+            "min": -100.0,
+            "max": 1000.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": -40.0,
+            "max": 360.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    },
+    {
+      "title": "Термопара",
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 1
+    }
+  ]
+}

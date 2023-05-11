@@ -1,0 +1,199 @@
+{
+  "$id": "specification.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "rangeListItem": {
+      "description": "Range specifications",
+      "type": "object",
+      "properties": {
+        "title": {
+          "$ref": "#/$defs/title"
+        },
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        },
+        "factor": {
+          "type": "string",
+          "enum": [
+            "NORMAL",
+            "PICO",
+            "NANO",
+            "MICRO",
+            "MILLI",
+            "KILO",
+            "MEGA",
+            "GIGA",
+            "TERA"
+          ],
+          "default": "NORMAL"
+        },
+        "precision": {
+          "type": "integer",
+          "default": 2
+        },
+        "calibrationPointsMin": {
+          "type": "integer",
+          "default": 2
+        }
+      },
+      "required": [
+        "min",
+        "max",
+        "factor",
+        "precision",
+        "calibrationPointsMin"
+      ]
+    },
+    "yAxisItemRange": {
+      "description": "YAxis Ranges Specifications",
+      "type": "object",
+      "properties": {
+        "list": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rangeListItem"
+          },
+          "minItems": 1
+        },
+        "defaultIndex": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        }
+      },
+      "required": [
+        "list",
+        "defaultIndex"
+      ]
+    },
+    "yAxisItem": {
+      "description": "Single YAxis Specifications",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "unit": {
+          "type": "string",
+          "maxLength": 3
+        },
+        "range": {
+          "$ref": "#/$defs/yAxisItemRange"
+        },
+        "required": [
+          "title",
+          "unit",
+          "range"
+        ]
+      }
+    },
+    "valueItem": {
+      "description": "Single Value Specifications",
+      "type": "object",
+      "properties": {
+        "title": {
+          "$ref": "#/$defs/title"
+        },
+        "yAxisIndex": {
+          "type": "integer",
+          "default": 0
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "chart",
+              "chart2",
+              "chart3",
+              "chart4",
+              "gauge",
+              "reference",
+              "current",
+              "measurements"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true,
+          "default": [
+            "chart",
+            "gauge",
+            "current",
+            "measurements"
+          ]
+        }
+      },
+      "required": [
+        "title",
+        "options",
+        "yAxisIndex"
+      ]
+    }
+  },
+  "title": "Sensor specifications",
+  "description": "School Laboratory sensor specifications",
+  "type": "object",
+  "properties": {
+    "uuid": {
+      "type": "string",
+      "minLength": 36,
+      "maxLength": 36
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 64
+    },
+    "info": {
+      "description": "Sensor common information",
+      "type": "object",
+      "properties": {
+        "title": {
+          "$ref": "#/$defs/title"
+        },
+        "sortOrder": {
+          "type": "integer",
+          "minimum": -1,
+          "default": -1
+        }
+      },
+      "required": [
+        "title",
+        "sortOrder"
+      ]
+    },
+    "yAxis": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/yAxisItem"
+      },
+      "minItems": 1
+    },
+    "value": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/valueItem"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "uuid",
+    "info",
+    "yAxis",
+    "value",
+    "description"
+  ]
+}
