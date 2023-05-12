@@ -23,7 +23,7 @@
 </p>
 Следует помнить, что для прошивки данного модуля потребуется разместить программатор непосредственно на плате мультисенсора. Схема:
 <p align="center">
-  <img src="/related-documents/schematics/esp32-wrover-e-single-module.png">
+  <img src="/related-documents/schematics/master-on-base-esp32-wrover-e-single-module.png">
 </p>  
 
 ### Вариант 2
@@ -33,7 +33,7 @@
 </p>
 В данном варианте программатор уже размещён на плате модуля. Схемотехника в данном случае выглядит так:
 <p align="center">
-  <img src="/related-documents/schematics/esp32-wrover-e-single-module.png">
+  <img src="/related-documents/schematics/master-on-base-lolin-d32-pro.png">
 </p>
 
 ***
