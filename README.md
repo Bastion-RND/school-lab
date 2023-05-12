@@ -8,7 +8,7 @@
 [![Client](https://img.shields.io/badge/Client-приложение-blueviolet)](https://github.com/Bastion-RND/school_lab)  
 [![Device](https://img.shields.io/badge/Device-прошивка_для_мультисенсора-green)](https://github.com/Bastion-RND/school-lab-device)  
 [![Updater](https://img.shields.io/badge/Updater-приложение_для_программирования_и_проверки_мультисенсора-orange)](https://github.com/Bastion-RND/school-lab-device-service-app)  
-[![FakeSensors](https://img.shields.io/badge/FakeSensors-прошивка_для_имитатора_блока_SENSORS-blue)](https://github.com/Bastion-RND/school-lab-device-fake-sensor)  
+[![FakeSensors](https://img.shields.io/badge/FakeSensors-прошивка_для_имитатора_блока_SENSORS-blue)](https://github.com/Bastion-RND/school-lab-device-fake-sensors)  
 ***
 ## Для внешних разработчиков
 В данном репозитории содержится документация, необходимая для внешних разработчиков проекта "Школьная лаборатория".  
