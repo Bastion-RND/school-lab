@@ -17,7 +17,7 @@
 ## Общее описание мультисенсора
 Мультисенсор устроен вследующим образом:  
 <p align="center">
-  <img src="/related-documents/diagrams/device-block-schematic.png">
+  <img src="/related-documents/diagrams/device-block-diagram.png">
 </p>
 
 Мультисенсор состоит из двух блоков: блок MASTER и блок SENSORS. Внешний разработчик разрабатывает блок SENSORS, далее добавляет к нему уже готовую схемотехнику блока MASTER и получает готовое устройство. Задача блок SENSORS - работа с физическими датчиками S и передача их значений блоку MASTER посредством [протокола](/protocol-description.md). Всю работу по "общению" с приложением выполняет блок MASTER.  
