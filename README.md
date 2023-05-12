@@ -5,13 +5,14 @@
 [![Arduino](https://img.shields.io/static/v1?style=for-the-badge&label=Micropython&message=1.19.1&logo=Micropython&color=red&labelColor=grey)](https://micropython.org/)   
 ***
 ## Ссылки на связанные репозитории
-[![AppMain](https://img.shields.io/badge/AppMain-приложение-blueviolet)](https://github.com/Bastion-RND/school_lab)  
-[![Firmware](https://img.shields.io/badge/Firmware-прошивка_для_устройства-green)](https://github.com/Bastion-RND/SchoolLabDevice)  
-[![AppUpdater](https://img.shields.io/badge/AppUpdated-приложения_для_прошивки_и_проверки_устройства-orange)](https://github.com/Bastion-RND/school-lab-device-service-app)  
-[![FakeExternalModule](https://img.shields.io/badge/FakeExternalModule-прошивка_для_имитатора_внешнего_MODULE-blue)](https://github.com/Bastion-RND/school-lab-device-fake-sensor)
+[![Client](https://img.shields.io/badge/Client-приложение-blueviolet)](https://github.com/Bastion-RND/school_lab)  
+[![Firmware](https://img.shields.io/badge/Firmware-прошивка_для_мультисенсора-green)](https://github.com/Bastion-RND/SchoolLabDevice)  
+[![Updater](https://img.shields.io/badge/Updater-приложение_для_программирования_и_проверки_мультисенсора-orange)](https://github.com/Bastion-RND/school-lab-device-service-app)  
+[![FakeSensors](https://img.shields.io/badge/FakeSensors-прошивка_для_имитатора_блока_SENSORS-blue)](https://github.com/Bastion-RND/school-lab-device-fake-sensor)  
 ***
 ## Для внешних разработчиков
-В данном репозитории содержится документация, необходимая для внешних разработчиков проекта "Школьная лаборатория"  
+В данном репозитории содержится документация, необходимая для внешних разработчиков проекта "Школьная лаборатория".  
+Документацию желательно читать в том порядке, в котором на неё ниже приведены ссылки:  
 В [этом файле](/terms-convention.md) представлено соглашение о терминах.  
 В [этом файле](/development-guide.md) общее описание процесса разработки внешнего модуля.  
 В [этом файле](/protocol-description.md) описание протокола взаимодействия внешнего модуля с центральным устройством.  
