@@ -1,6 +1,5 @@
-# Корневой репозиторий проекта "Школьная лаборатория"
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=ШКОЛЬНАЯ ЛАБОРАТОРИЯ&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Корневой репозиторий проекта 'ШКОЛЬНАЯ ЛАБОРАТОРИЯ'&font=Fira+Code&size=30&center=true&width=1100&height=50&duration=2000&pause=5000">
 </p>  
 
 ***
