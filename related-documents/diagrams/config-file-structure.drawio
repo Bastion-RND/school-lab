@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" modified="2023-05-12T12:02:00.769Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.3.719 Yowser/2.5 Safari/537.36" etag="wiwYHkk21HLgbU-HArfa" version="21.2.9" type="device">
+  <diagram name="Страница 1" id="2VM0wbgHxrBWx1SE1arH">
+    <mxGraphModel dx="1434" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pwg9mQtu6opbKOmet46r-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="130" width="510" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="490" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="440" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="380" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="220" y="710" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="720" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-5" value="&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;info:&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-6" value="&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;title: Заголовок датчика, отображаемый в приложении&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-8" value="sortOrder: всегда равен &quot;-1&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-9" value="&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;yAxis:&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-10" value="[" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-11" value="]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="660" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-12" value="&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;unit: единицы измерения по этой Y-оси&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-16" value="&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;title: заголовок этой Y-оси, отображаемый в приложении&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-18" value="&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;range:&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="280" y="330" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-21" value="&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;list:&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-23" value="&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;min: минимальное значение диапазона&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-25" value="&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;max: максимальное значение диапазона&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-27" value="precision: точность на этом диапазоне" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="400" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-29" value="factor: множитель" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="400" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="420" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-31" value="calibrationPointMin: количество точек калибровки" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="420" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="280" y="498.5" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-35" value="defaultIndex: отображаемый по дефолту индекс" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-37" value="другой диапазон" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-38" value="другой диапазон" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="499" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="220" y="590" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="220" y="630" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-41" value="другая Y-ось" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-42" value="другая Y-ось" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-43" value="&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;value:&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="680" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-45" value="[" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="690" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-46" value="&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;title: заголовок измерения&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="720" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="740" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-51" value="options: [opt1, opt2, optN]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="740" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="760" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-57" value="yAxisIndex: 0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="760" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="800" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-59" value="]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="870" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-60" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="220" y="840" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-61" value="другой канал" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pwg9mQtu6opbKOmet46r-62" value="другой канал" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="840" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
