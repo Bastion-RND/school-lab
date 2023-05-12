@@ -52,14 +52,12 @@
 <p align="center">
   <img src="/related-documents/pictures/spec-range-index.png">
 </p>
-
-
-
+  
 **Пример для типа 1 - датчик температуры**
 
 | Параметр                                 | Значение                             | 
 |------------------------------------------|--------------------------------------|
-| Название датчика                         | Температура                          |
+| Название датчика                         | Температура (ЩУП)                    |
 | UUID датчика                             | ba575001-eca0-11ec-8ea0-1337ac062022 |
 | Количество осей по Y                     | 1                                    |
 | Единицы измерения для оси Y              | °C                                   |
@@ -70,6 +68,55 @@
 | Диапазон 2: минимальное значение         | -40                                  |
 | Диапазон 2: максимальное значение        | 360                                  |
 | Количество каналов измерения             | 1                                    |
+
+```json
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575001-eca0-11ec-8ea0-1337ac062022",
+  "description": "Температура (термопара)",
+  "info": {
+    "title": "Температура (ЩУП)",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "°C",
+      "title": "Температура",
+      "range": {
+        "list": [
+          {
+            "min": -100.0,
+            "max": 1000.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": -40.0,
+            "max": 360.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": "Термопара",
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}
+```
 
 
 
