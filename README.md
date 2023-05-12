@@ -1,4 +1,8 @@
 # Корневой репозиторий проекта "Школьная лаборатория"
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=ШКОЛЬНАЯ ЛАБОРАТОРИЯ&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000">
+</p>  
+
 ***
 ## Стек технологий и аппаратные платформы
 [![Espressif](https://img.shields.io/static/v1?style=for-the-badge&label=Espressif&message=ESP32-WROVER-E&logo=Espressif&color=red&labelColor=grey)](https://espressif.com/)
