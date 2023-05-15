@@ -18,7 +18,7 @@
 [![C3](https://img.shields.io/static/v1?style=for-the-badge&label=C3&message=0.7.20&logo=D3.js&logoColor=222222&color=222222&labelColor=white)](https://c3js.org/)  
 ***
 ## Ссылки на связанные репозитории
-[![Client](https://img.shields.io/badge/Client-приложение-blueviolet)](https://github.com/Bastion-RND/school_lab)  
+[![Client](https://img.shields.io/badge/Client-приложение-blueviolet)](https://github.com/Bastion-RND/school-lab-client)  
 [![Device](https://img.shields.io/badge/Device-прошивка_для_мультисенсора-green)](https://github.com/Bastion-RND/school-lab-device)  
 [![Updater](https://img.shields.io/badge/Updater-приложение_для_программирования_и_проверки_мультисенсора-orange)](https://github.com/Bastion-RND/school-lab-device-updater-app)  
 [![FakeSensors](https://img.shields.io/badge/FakeSensors-прошивка_для_имитатора_блока_SENSORS-blue)](https://github.com/Bastion-RND/school-lab-device-fake-sensors)  
