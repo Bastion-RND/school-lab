@@ -1,0 +1,67 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575019-eca0-11ec-8ea0-1337ac062022",
+  "description": "Напряжение",
+  "info": {
+    "title": "Напряжение",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": " В",
+      "title": "Напряжение",
+      "range": {
+        "list": [
+          {
+            "min": -2.0,
+            "max": 2.0,
+            "precision": 3,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": -5.0,
+            "max": 5.0,
+            "precision": 3,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": -10.0,
+            "max": 10.0,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": -15.0,
+            "max": 15.0,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": -25.0,
+            "max": 25.0,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}
