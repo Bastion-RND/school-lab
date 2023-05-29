@@ -12,7 +12,8 @@
         "PHYSICS",
         "BIOLOGY",
         "CHEMISTRY",
-        "OPS"
+        "OPS",
+        "DROPS"
       ],
       "default": "NORMAL"
     },
