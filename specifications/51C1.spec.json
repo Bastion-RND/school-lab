@@ -1,0 +1,13 @@
+{
+  "$schema": "schema/multisensor.schema.json",
+  "uuid": "000051c1-0000-1000-8000-00805f9b34fb",
+  "title": "Счетчик капель",
+  "advName": "DROPS #",
+  "moduleName": "lib.laboratories.DROPS",
+  "sensors": [
+    {
+      "description": "Устройство подсчета капель на штатив",
+      "uuid": "ba57501a-eca0-11ec-8ea0-1337ac062022"
+    }
+  ]
+}
