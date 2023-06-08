@@ -1,0 +1,36 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba57501a-eca0-11ec-8ea0-1337ac062022",
+  "description": "Устройство подсчета капель на штатив",
+  "info": {
+    "title": "Счетчик капель",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "кпл",
+      "title": "Капли",
+      "range": {
+        "list": [
+          {
+            "min": 0,
+            "max": 4294967295,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "current"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}
