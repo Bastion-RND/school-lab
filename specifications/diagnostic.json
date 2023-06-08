@@ -11,6 +11,13 @@
         "message": "АВАРИЯ"
       }
     },
+    "MCU": {
+      "title": "Микроконтроллер",
+      "mask": "ESP32-D0WD-V3"
+    },
+    "MICROPYTHON": {
+      "title": "esp32spiram-20220618-v1.19.1.bin"
+    },
     "LAB_TYPE": {
       "title": "Тип лаборатории"
     },
@@ -32,8 +39,17 @@
         "message": "АВАРИЯ"
       }
     },
+    "InternalADC": {
+      "title": "Внутренний АЦП (ESP32)"
+    },
     "ADC101C027": {
       "title": "АЦП ADC101C027 (I2C)"
+    },
+    "ADS1115": {
+      "title": "АЦП ADS1115 (I2C)"
+    },
+    "INA219": {
+      "title": "Измеритель тока INA219 (I2C)"
     },
     "ADS8665": {
       "title": "Измеритель напряжения ADS8665 (SPI)"
@@ -47,9 +63,6 @@
     "HX71x": {
       "title": "АЦП HX71x (SPI)"
     },
-    "INA219": {
-      "title": "Измеритель тока INA219 (I2C)"
-    },
     "LIS2DH12": {
       "title": "Акселерометр LIS2DH12 (I2C)"
     },
@@ -59,11 +72,20 @@
     "MPU6050": {
       "title": "Акселерометр/гироскоп MPU6050 (I2C)"
     },
+    "MAX31855": {
+      "title": "Контроллер термопары К-типа (SPI)"
+    },
+    "GPIOIrqCounter": {
+      "title": "Счетчик импульсов (GPIO IRQ)"
+    },
     "AbsolutePressureSensor": {
       "title": "Датчик абсолютного давления (ADC)"
     },
-    "AccelerometerSensor": {
+    "AccelerometerSensorLIS2DH12": {
       "title": "Датчик ускорения по 3м осям (LIS2DH12)"
+    },
+    "AccelerometerSensorMPU6050": {
+      "title": "Датчик ускорения по 3м осям (MPU6050)"
     },
     "AmbientLightSensor": {
       "title": "Датчик уровня освещенности (BH1750)"
@@ -88,6 +110,9 @@
     },
     "VoltageSensor": {
       "title": "Датчик напряжения (ADS8661)"
+    },
+    "VoltageSensorAdc": {
+      "title": "Датчик напряжения (ADC)"
     },
     "HeartRateMonitorSensor": {
       "title": "Датчик ЭКГ (ADC)"
@@ -125,8 +150,14 @@
     "TemperatureKTypeSensor": {
       "title": "Датчик температуры - термопара К-типа (ADC)"
     },
+    "TemperatureKTypeSensorMAX31855": {
+      "title": "Датчик температуры - термопара К-типа (MAX31855)"
+    },
     "TemperatureNTCSensor": {
       "title": "Датчик температуры - терморезистор NTC (ADC)"
+    },
+    "DropsCounterSensor": {
+      "title": "Счетчик капель"
     }
   }
 }

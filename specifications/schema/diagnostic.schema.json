@@ -88,6 +88,25 @@
         "default": {
           "$ref": "#/$defs/default"
         },
+        "MCU": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "$ref": "#/$defs/string"
+            },
+            "mask": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
+        "MICROPYTHON": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "$ref": "#/$defs/string"
+            }
+          }
+        },
         "LAB_TYPE": {
           "$ref": "#/$defs/record"
         },
@@ -100,6 +119,8 @@
       },
       "required": [
         "default",
+        "MCU",
+        "MICROPYTHON",
         "LAB_TYPE",
         "HARDWARE",
         "FIRMWARE"
@@ -111,7 +132,13 @@
         "default": {
           "$ref": "#/$defs/default"
         },
+        "InternalADC": {
+          "$ref": "#/$defs/record"
+        },
         "ADC101C027": {
+          "$ref": "#/$defs/record"
+        },
+        "ADS1115": {
           "$ref": "#/$defs/record"
         },
         "INA219": {
@@ -138,10 +165,16 @@
         "MPU6050": {
           "$ref": "#/$defs/record"
         },
+        "MAX31855": {
+          "$ref": "#/$defs/record"
+        },
         "AbsolutePressureSensor": {
           "$ref": "#/$defs/record"
         },
-        "AccelerometerSensor": {
+        "AccelerometerSensorLIS2DH12": {
+          "$ref": "#/$defs/record"
+        },
+        "AccelerometerSensorMPU6050": {
           "$ref": "#/$defs/record"
         },
         "AmbientLightSensor": {
@@ -166,6 +199,9 @@
           "$ref": "#/$defs/record"
         },
         "VoltageSensor": {
+          "$ref": "#/$defs/record"
+        },
+        "VoltageSensorAdc": {
           "$ref": "#/$defs/record"
         },
         "HeartRateMonitorSensor": {
@@ -204,7 +240,13 @@
         "TemperatureKTypeSensor": {
           "$ref": "#/$defs/record"
         },
+        "TemperatureKTypeSensorMAX31855": {
+          "$ref": "#/$defs/record"
+        },
         "TemperatureNTCSensor": {
+          "$ref": "#/$defs/record"
+        },
+        "DropsCounterSensor": {
           "$ref": "#/$defs/record"
         }
       },
@@ -219,8 +261,11 @@
         "LIS2DH12",
         "MHZ19",
         "MPU6050",
+        "MAX31855",
+        "GPIOIrqCounter",
         "AbsolutePressureSensor",
-        "AccelerometerSensor",
+        "AccelerometerSensorLIS2DH12",
+        "AccelerometerSensorMPU6050",
         "AmbientLightSensor",
         "BatteryLevelSensor",
         "BloodPressureSensor",
@@ -229,6 +274,7 @@
         "ConductanceSensor",
         "CurrentSensor",
         "VoltageSensor",
+        "VoltageSensorAdc",
         "HeartRateMonitorSensor",
         "LoadCellSensor",
         "MagneticFluxSensor",
@@ -241,7 +287,9 @@
         "TemperatureHumiditySensorDHT22",
         "TemperatureHumiditySensorHDC1080",
         "TemperatureKTypeSensor",
-        "TemperatureNTCSensor"
+        "TemperatureKTypeSensorMAX31855",
+        "TemperatureNTCSensor",
+        "DropsCounterSensor"
       ]
     }
   },
