@@ -1,14 +1,14 @@
 {
   "$schema": "schema/sensor.schema.json",
   "uuid": "ba575019-eca0-11ec-8ea0-1337ac062022",
-  "description": "Расстояние",
+  "description": "Измеритель расстояния",
   "info": {
     "title": "Расстояние",
     "sortOrder": -1
   },
   "yAxis": [
     {
-      "unit": "См",
+      "unit": "см",
       "title": "Расстояние",
       "range": {
         "list": [
