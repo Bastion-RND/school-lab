@@ -99,12 +99,12 @@
 * в варианте Read (***AT+STATUS?***) Ведомый должен вернуть состояние своей готовности
     > **пример - ведомый не готов:**  
     > \> AT+STATUS?\r\n  
-    > \< +STATUS:BUSY\r\n  
+    > \< +STATUS:"BUSY"\r\n  
     > \< OK\r\n  
     > 
     > **пример - ведомый готов:**  
     > \> AT+STATUS?\r\n  
-    > \< +STATUS:READY\r\n  
+    > \< +STATUS:"READY"\r\n  
     > \< OK\r\n
 ***
 #### ***AT+LIST***
