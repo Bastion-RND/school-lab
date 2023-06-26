@@ -8,16 +8,32 @@
   },
   "yAxis": [
     {
-      "unit": "V",
+      "unit": "В",
       "title": "ЭКГ",
       "range": {
         "list": [
           {
             "min": 0.0,
-            "max": 3.3,
+            "max": 0.1,
+            "precision": 2,
+            "factor": "MILLI",
+            "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    },
+    {
+      "unit": "уд/мин",
+      "title": "ЧСС",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 300.0,
             "precision": 0,
             "factor": "NORMAL",
-            "calibrationPointsMin": 1
+            "calibrationPointsMin": 0
           }
         ],
         "defaultIndex": 0
@@ -26,14 +42,19 @@
   ],
   "value": [
     {
-      "title": null,
+      "title": "ЭКГ",
       "options": [
-        "chart",
-        "gauge",
-        "current",
-        "measurements"
+        "chart2"
       ],
       "yAxisIndex": 0
+    },
+    {
+      "title": "ЧСС",
+      "options": [
+        "gauge",
+        "minmax"
+      ],
+      "yAxisIndex": 1
     }
   ]
 }
