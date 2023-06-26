@@ -1,0 +1,75 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba57501c-eca0-11ec-8ea0-1337ac062022",
+  "description": "Измеритель артериального давления",
+  "info": {
+    "title": "Артериальное давление",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "мм рт.ст.",
+      "title": "Давление",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 300.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    },
+    {
+      "unit": "%",
+      "title": "Тон",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 100.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": "Давление",
+      "options": [
+        "chart",
+        "gauge",
+        "minmax"
+      ],
+      "yAxisIndex": 0
+    },
+    {
+      "title": "Тон",
+      "options": [
+        "chart"
+      ],
+      "yAxisIndex": 1
+    },
+    {
+      "title": "Систолическое давление",
+      "options": [
+        "bloodPressure"
+      ],
+      "yAxisIndex": 0
+    },
+    {
+      "title": "Диастолическое давление",
+      "options": [
+        "bloodPressure"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}
