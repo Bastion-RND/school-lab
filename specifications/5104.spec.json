@@ -1,0 +1,33 @@
+{
+  "$schema": "schema/multisensor.schema.json",
+  "uuid": "00005103-0000-1000-8000-00805f9b34fb",
+  "title": "Физиология",
+  "advName": "Physiology #",
+  "moduleName": "lib.laboratories.Physiology",
+  "sensors": [
+    {
+      "uuid": "ba575004-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "uuid": "ba575015-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "uuid": "ba57500b-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "uuid": "ba575013-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "uuid": "ba575012-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "uuid": "ba57501b-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "uuid": "ba57501c-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "uuid": "ba57500f-eca0-11ec-8ea0-1337ac062022"
+    }
+  ]
+}
