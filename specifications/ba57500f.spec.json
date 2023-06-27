@@ -3,7 +3,7 @@
   "uuid": "ba57500f-eca0-11ec-8ea0-1337ac062022",
   "description": "Тензодатчик",
   "info": {
-    "title": "Bec? Сила?",
+    "title": "Динамометр",
     "sortOrder": -1
   },
   "yAxis": [
@@ -15,8 +15,8 @@
           {
             "min": 0.0,
             "max": 50.0,
-            "precision": 0,
-            "factor": "NORMAL",
+            "precision": 3,
+            "factor": "KILO",
             "calibrationPointsMin": 1
           }
         ],
