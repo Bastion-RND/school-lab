@@ -1,0 +1,38 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba57501a-eca0-11ec-8ea0-1337ac062022",
+  "description": "Измеритель ЧД на базе микрофона",
+  "info": {
+    "title": "Частота дыхания",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "вдох/мин",
+      "title": "Частота дыхания",
+      "range": {
+        "list": [
+          {
+            "min": 0,
+            "max": 100,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "gauge",
+        "current",
+        "minmax"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}
