@@ -1,0 +1,32 @@
+{
+  "$schema": "schema/vendor.schema.json",
+  "uuid": "00000002-0000-0000-0000-000000000000",
+  "title": "Полилаб",
+  "description": "Полилаб - программно-аппаратный комплекс, для проведения лабораторных испытаний",
+  "vendor": {
+    "title": "Полимедиа",
+    "logo": "img/logos/polylab/logo.svg"
+  },
+  "labs": [
+    {
+      "uuid": "5101",
+      "color": "#017BC2"
+    },
+    {
+      "uuid": "5102",
+      "color": "#009E96"
+    },
+    {
+      "uuid": "5103",
+      "color": "#8BC34A"
+    },
+    {
+      "uuid": "51C0",
+      "color": "#00A8A7"
+    },
+    {
+      "uuid": "51C1",
+      "color": "#7B00A8"
+    }
+  ]
+}
