@@ -20,7 +20,7 @@
       "minLength": 1
     },
     "vendorLab": {
-      "description": "Vendor Laboratory",
+      "description": "Laboratory of vendor",
       "type": "object",
       "properties": {
         "uuid": {
@@ -49,6 +49,10 @@
     },
     "title": {
       "$ref": "#/$defs/title"
+    },
+    "target": {
+      "type": "string",
+      "description": "This property is needed to service of update"
     },
     "description": {
       "$ref": "#/$defs/description"
@@ -87,6 +91,7 @@
   },
   "required": [
     "uuid",
+    "target",
     "title",
     "vendor",
     "labs"
