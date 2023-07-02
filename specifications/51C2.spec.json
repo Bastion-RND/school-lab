@@ -1,0 +1,13 @@
+{
+  "$schema": "schema/multisensor.schema.json",
+  "uuid": "000051c2-0000-1000-8000-00805f9b34fb",
+  "title": "Измеритель расстояния",
+  "advName": "Distance #",
+  "moduleName": "lib.laboratories.Distance",
+  "sensors": [
+    {
+      "description": "Измеритель расстояния",
+      "uuid": "ba575019-eca0-11ec-8ea0-1337ac062022"
+    }
+  ]
+}
