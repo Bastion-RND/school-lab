@@ -82,11 +82,21 @@
       ]
     },
     "labs": {
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/vendorLab"
-      },
-      "minItems": 1
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/vendorLab"
+          }
+        },
+        "exclude": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   },
   "required": [
