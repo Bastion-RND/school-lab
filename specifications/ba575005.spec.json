@@ -14,14 +14,28 @@
         "list": [
           {
             "min": 0.0,
-            "max": 0.002,
+            "max": 0.000200,
             "precision": 0,
             "factor": "MICRO",
             "calibrationPointsMin": 2
           },
           {
             "min": 0.0,
-            "max": 0.2,
+            "max": 0.002000,
+            "precision": 0,
+            "factor": "MICRO",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": 0.0,
+            "max": 0.020000,
+            "precision": 0,
+            "factor": "MICRO",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": 0.0,
+            "max": 0.200000,
             "precision": 0,
             "factor": "MICRO",
             "calibrationPointsMin": 2
