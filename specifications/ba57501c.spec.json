@@ -13,9 +13,16 @@
       "range": {
         "list": [
           {
-            "min": 0.0,
-            "max": 300.0,
-            "precision": 0,
+            "min": 0,
+            "max": 300,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 50,
+            "max": 150,
+            "precision": 1,
             "factor": "NORMAL",
             "calibrationPointsMin": 0
           }
@@ -24,14 +31,30 @@
       }
     },
     {
-      "unit": "%",
+      "unit": "σ",
       "title": "Тон",
       "range": {
         "list": [
           {
-            "min": 0.0,
-            "max": 100.0,
-            "precision": 1,
+            "min": 0,
+            "max": 5,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    },
+    {
+      "unit": "уд/мин",
+      "title": "ЧСС",
+      "range": {
+        "list": [
+          {
+            "min": 0,
+            "max": 300,
+            "precision": 0,
             "factor": "NORMAL",
             "calibrationPointsMin": 0
           }
@@ -44,9 +67,7 @@
     {
       "title": "Давление",
       "options": [
-        "chart",
-        "gauge",
-        "minmax"
+        "chart"
       ],
       "yAxisIndex": 0
     },
@@ -56,6 +77,13 @@
         "chart"
       ],
       "yAxisIndex": 1
+    },
+    {
+      "title": "ЧСС",
+      "options": [
+        "bloodPressure"
+      ],
+      "yAxisIndex": 2
     },
     {
       "title": "Систолическое давление",

@@ -13,8 +13,8 @@
       "range": {
         "list": [
           {
-            "min": 0.0,
-            "max": 3.0, 
+            "min": 0,
+            "max": 3,
             "precision": 2,
             "factor": "MILLI",
             "calibrationPointsMin": 1
@@ -29,8 +29,8 @@
       "range": {
         "list": [
           {
-            "min": 0.0,
-            "max": 300.0,
+            "min": 0,
+            "max": 300,
             "precision": 0,
             "factor": "NORMAL",
             "calibrationPointsMin": 0
