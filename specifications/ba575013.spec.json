@@ -3,34 +3,18 @@
   "uuid": "ba575013-eca0-11ec-8ea0-1337ac062022",
   "description": "Частота сердечных сокращений",
   "info": {
-    "title": "ЧСС",
+    "title": "Частота сердечных сокращений",
     "sortOrder": -1
   },
   "yAxis": [
-    {
-      "unit": "%",
-      "title": "Оксигенация",
-      "range": {
-        "list": [
-          {
-            "min": 0.0,
-            "max": 100.0,
-            "precision": 1,
-            "factor": "NORMAL",
-            "calibrationPointsMin": 0
-          }
-        ],
-        "defaultIndex": 0
-      }
-    },
     {
       "unit": "уд/мин",
       "title": "ЧСС",
       "range": {
         "list": [
           {
-            "min": 0.0,
-            "max": 300.0,
+            "min": 0,
+            "max": 300,
             "precision": 0,
             "factor": "NORMAL",
             "calibrationPointsMin": 0
@@ -42,19 +26,12 @@
   ],
   "value": [
     {
-      "title": "Оксигенация",
-      "options": [
-        "chart"
-      ],
-      "yAxisIndex": 0
-    },
-    {
       "title": "ЧСС",
       "options": [
         "gauge",
         "minmax"
       ],
-      "yAxisIndex": 1
+      "yAxisIndex": 0
     }
   ]
 }
