@@ -124,7 +124,8 @@
               "reference",
               "current",
               "measurements",
-              "minmax"
+              "minmax",
+              "bloodPressure"
             ]
           },
           "minItems": 1,
