@@ -1,7 +1,7 @@
 {
   "$id": "specification.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$defs": {
+  "$definitions": {
     "title": {
       "type": [
         "string",
@@ -15,7 +15,7 @@
       "type": "object",
       "properties": {
         "title": {
-          "$ref": "#/$defs/title"
+          "$ref": "#/$definitions/title"
         },
         "min": {
           "type": "number"
@@ -62,7 +62,7 @@
         "list": {
           "type": "array",
           "items": {
-            "$ref": "#/$defs/rangeListItem"
+            "$ref": "#/$definitions/rangeListItem"
           },
           "minItems": 1
         },
@@ -91,7 +91,7 @@
           "maxLength": 10
         },
         "range": {
-          "$ref": "#/$defs/yAxisItemRange"
+          "$ref": "#/$definitions/yAxisItemRange"
         },
         "required": [
           "title",
@@ -105,7 +105,7 @@
       "type": "object",
       "properties": {
         "title": {
-          "$ref": "#/$defs/title"
+          "$ref": "#/$definitions/title"
         },
         "yAxisIndex": {
           "type": "integer",
@@ -136,12 +136,17 @@
             "current",
             "measurements"
           ]
+        },
+        "errors": {
+          "description": "Error Codes with default texts",
+          "type": "object"
         }
       },
       "required": [
         "title",
         "options",
-        "yAxisIndex"
+        "yAxisIndex",
+        "errors"
       ]
     }
   },
@@ -163,7 +168,7 @@
       "type": "object",
       "properties": {
         "title": {
-          "$ref": "#/$defs/title"
+          "$ref": "#/$definitions/title"
         },
         "sortOrder": {
           "type": "integer",
@@ -179,14 +184,14 @@
     "yAxis": {
       "type": "array",
       "items": {
-        "$ref": "#/$defs/yAxisItem"
+        "$ref": "#/$definitions/yAxisItem"
       },
       "minItems": 1
     },
     "value": {
       "type": "array",
       "items": {
-        "$ref": "#/$defs/valueItem"
+        "$ref": "#/$definitions/valueItem"
       },
       "minItems": 1
     }
