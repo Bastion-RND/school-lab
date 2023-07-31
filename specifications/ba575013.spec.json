@@ -26,30 +26,12 @@
   ],
   "value": [
     {
-<<<<<<< Updated upstream
-=======
-      "title": "Оксигенация",
-      "options": [
-        "chart"
-      ],
-      "yAxisIndex": 0,
-      "errors": {
-        "0": "Нет ошибки",
-        "1": "Датчик не подключен"
-      }
-    },
-    {
->>>>>>> Stashed changes
       "title": "ЧСС",
       "options": [
         "gauge",
         "minmax"
       ],
-<<<<<<< Updated upstream
       "yAxisIndex": 0,
-=======
-      "yAxisIndex": 1,
->>>>>>> Stashed changes
       "errors": {
         "0": "Нет ошибки",
         "1": "Датчик не подключен"
