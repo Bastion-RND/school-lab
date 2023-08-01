@@ -87,17 +87,6 @@
       }
     },
     {
-      "title": "ЧСС",
-      "options": [
-        "bloodPressure"
-      ],
-      "yAxisIndex": 2,
-      "errors": {
-        "0": "Нет ошибки",
-        "1": "Датчик не подключен"
-      }
-    },
-    {
       "title": "Систолическое давление",
       "options": [
         "bloodPressure"
@@ -114,6 +103,17 @@
         "bloodPressure"
       ],
       "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
+    },
+    {
+      "title": "ЧСС",
+      "options": [
+        "bloodPressure"
+      ],
+      "yAxisIndex": 2,
       "errors": {
         "0": "Нет ошибки",
         "1": "Датчик не подключен"
