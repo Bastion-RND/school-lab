@@ -1,0 +1,49 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba57501d-eca0-11ec-8ea0-1337ac062022",
+  "description": "Мутность раствора",
+  "info": {
+    "title": "Мутность раствора - Нефелометр",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "NTU",
+      "title": "Нефелометрическая единица мутности",
+      "range": {
+        "list": [
+          {
+            "min": 0,
+            "max": 20,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 0,
+            "max": 200,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 1
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "current",
+        "reference",
+        "measurements"
+      ],
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
+    }
+  ]
+}
