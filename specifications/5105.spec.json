@@ -1,0 +1,69 @@
+{
+  "$schema": "schema/multisensor.schema.json",
+  "uuid": "00005105-0000-1000-8000-00805f9b34fb",
+  "title": "Экология",
+  "advName": "Ecology #",
+  "moduleName": "lib.laboratories.Ecology",
+  "sensors": [
+    {
+      "description": "Температура воздуха",
+      "uuid": "ba575002-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Относительная влажность воздуха",
+      "uuid": "ba575003-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Точка росы",
+      "uuid": "ba57501f-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Температура, датчик NTC",
+      "uuid": "ba575015-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Водородный показатель (pH)",
+      "uuid": "ba575008-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Электрическая проводимость",
+      "uuid": "ba575005-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Уровень освещенности",
+      "uuid": "ba575004-eca0-11ec-8ea0-1337ac062022"
+    },    
+    {
+      "description": "Мутность раствора",
+      "uuid": "ba57501d-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Оптическая плотность среды",
+      "uuid": "ba57500C-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Влажность почвы",
+      "uuid": "ba575016-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Концентрация углекислого газа",
+      "uuid": "ba575011-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Концентрация нитрат-ионов",
+      "uuid": "ba575017-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Концентрация хлорид-ионов",
+      "uuid": "ba575018-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Уровень шума",
+      "uuid": "ba575014-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
+      "description": "Температура, влажность, точка росы",
+      "uuid": "ba575C07-eca0-11ec-8ea0-1337ac062022"
+    }
+  ]
+}

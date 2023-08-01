@@ -6,27 +6,35 @@
   "moduleName": "lib.laboratories.Physiology",
   "sensors": [
     {
+      "description": "Уровень освещенности",
       "uuid": "ba575004-eca0-11ec-8ea0-1337ac062022"
     },
     {
+      "description": "Температура, датчик NTC",
       "uuid": "ba575015-eca0-11ec-8ea0-1337ac062022"
     },
     {
+      "description": "Ускорение по осям",
       "uuid": "ba57500b-eca0-11ec-8ea0-1337ac062022"
     },
     {
+      "description": "Частота сердечных сокращений",
       "uuid": "ba575013-eca0-11ec-8ea0-1337ac062022"
     },
     {
+      "description": "Электрокардиограф",
       "uuid": "ba575012-eca0-11ec-8ea0-1337ac062022"
     },
     {
+      "description": "Частота дыхания",
       "uuid": "ba57501b-eca0-11ec-8ea0-1337ac062022"
     },
     {
+      "description": "Артериальное давление",
       "uuid": "ba57501c-eca0-11ec-8ea0-1337ac062022"
     },
     {
+      "description": "Динамометр",
       "uuid": "ba57500f-eca0-11ec-8ea0-1337ac062022"
     }
   ]
