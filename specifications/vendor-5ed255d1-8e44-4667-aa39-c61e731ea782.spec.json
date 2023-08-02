@@ -34,7 +34,7 @@
     },
     "Измеритель расстояния": {
       "uuid": "51C2",
-      "lifeCycle": "BETA"
+      "lifeCycle": "ALPHA"
     }
   }
 }

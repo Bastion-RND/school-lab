@@ -21,6 +21,16 @@
       "uuid": "5103",
       "color": "#8BC34A"
     },
+    "Физиология": {
+      "uuid": "5104",
+      "color": "#017BC2",
+      "lifeCycle": "BETA"
+    },
+    "Экология": {
+      "uuid": "5105",
+      "color": "#017BC2",
+      "lifeCycle": "BETA"
+    },
     "ОПС": {
       "uuid": "51C0",
       "color": "#00A8A7"
