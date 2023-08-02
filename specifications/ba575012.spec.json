@@ -13,8 +13,8 @@
       "range": {
         "list": [
           {
-            "min": 0,
-            "max": 3,
+            "min": 0.0,
+            "max": 3.0,
             "precision": 2,
             "factor": "MILLI",
             "calibrationPointsMin": 1
@@ -46,14 +46,22 @@
       "options": [
         "chart"
       ],
-      "yAxisIndex": 0
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
     },
     {
       "title": "ЧСС",
       "options": [
         "gauge"
       ],
-      "yAxisIndex": 1
+      "yAxisIndex": 1,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
     }
   ]
 }

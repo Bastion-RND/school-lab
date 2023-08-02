@@ -33,6 +33,17 @@
         },
         "color": {
           "type": "string"
+        },
+        "lifeCycle": {
+          "type": "string",
+          "enum": [
+            "ALPHA",
+            "BETA",
+            "RELEASE CANDIDATE",
+            "RELEASE",
+            "PRODUCTION"
+          ],
+          "default": "BETA"
         }
       },
       "required": [

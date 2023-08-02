@@ -53,7 +53,11 @@
         "gauge",
         "measurements"
       ],
-      "yAxisIndex": 0
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
     },
     {
       "title": "Ось Y",
@@ -62,7 +66,11 @@
         "gauge",
         "measurements"
       ],
-      "yAxisIndex": 0
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
     },
     {
       "title": "Ось Z",
@@ -71,7 +79,11 @@
         "gauge",
         "measurements"
       ],
-      "yAxisIndex": 0
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
     }
   ]
 }

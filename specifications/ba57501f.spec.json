@@ -1,23 +1,23 @@
 {
   "$schema": "schema/sensor.schema.json",
-  "uuid": "ba575010-eca0-11ec-8ea0-1337ac062022",
-  "description": "Артериальное давление",
+  "uuid": "ba57501f-eca0-11ec-8ea0-1337ac062022",
+  "description": "Точка росы",
   "info": {
-    "title": "Артериальное давление",
+    "title": "Точка росы",
     "sortOrder": -1
   },
   "yAxis": [
     {
-      "unit": "Па",
-      "title": "Давление",
+      "unit": "°C",
+      "title": "Точка росы",
       "range": {
         "list": [
           {
-            "min": 0.0,
-            "max": 40000.0,
-            "precision": 0,
+            "min": -60.0,
+            "max": 40.0,
+            "precision": 1,
             "factor": "NORMAL",
-            "calibrationPointsMin": 1
+            "calibrationPointsMin": 0
           }
         ],
         "defaultIndex": 0
