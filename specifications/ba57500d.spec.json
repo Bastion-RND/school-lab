@@ -1,7 +1,7 @@
 {
   "$schema": "schema/sensor.schema.json",
   "uuid": "ba57500d-eca0-11ec-8ea0-1337ac062022",
-  "description": "Температура воздуха",
+  "description": "Температура воздуха DHT22",
   "info": {
     "title": "Температура воздуха",
     "sortOrder": -1
