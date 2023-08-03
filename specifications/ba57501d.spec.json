@@ -1,28 +1,28 @@
 {
   "$schema": "schema/sensor.schema.json",
-  "uuid": "ba575009-eca0-11ec-8ea0-1337ac062022",
-  "description": "Сила тока",
+  "uuid": "ba57501d-eca0-11ec-8ea0-1337ac062022",
+  "description": "Мутность раствора",
   "info": {
-    "title": "Сила тока",
+    "title": "Мутность раствора - Нефелометр",
     "sortOrder": -1
   },
   "yAxis": [
     {
-      "unit": " А",
-      "title": "Сила тока",
+      "unit": "NTU",
+      "title": "Нефелометрическая единица мутности",
       "range": {
         "list": [
           {
-            "min": -5.0,
-            "max": 5.00,
-            "precision": 3,
+            "min": 0,
+            "max": 20,
+            "precision": 2,
             "factor": "NORMAL",
-            "calibrationPointsMin": 2
+            "calibrationPointsMin": 0
           },
           {
-            "min": -1.0,
-            "max": 1.00,
-            "precision": 3,
+            "min": 0,
+            "max": 200,
+            "precision": 0,
             "factor": "NORMAL",
             "calibrationPointsMin": 0
           }
@@ -35,9 +35,8 @@
     {
       "title": null,
       "options": [
-        "chart",
-        "gauge",
         "current",
+        "reference",
         "measurements"
       ],
       "yAxisIndex": 0,

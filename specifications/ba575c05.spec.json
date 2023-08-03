@@ -34,7 +34,7 @@
       "unit": " См",
       "title": "Проводимость",
       "range": {
-         "list": [
+        "list": [
           {
             "min": 0.0,
             "max": 0.0002,
@@ -77,7 +77,11 @@
         "current",
         "measurements"
       ],
-      "yAxisIndex": 0
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
     },
     {
       "title": "Электрическая проводимость",
@@ -87,7 +91,11 @@
         "current",
         "measurements"
       ],
-      "yAxisIndex": 1
+      "yAxisIndex": 1,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
     }
   ]
 }

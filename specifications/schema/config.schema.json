@@ -12,8 +12,11 @@
         "PHYSICS",
         "BIOLOGY",
         "CHEMISTRY",
+        "PHYSIOLOGY",
         "OPS",
-        "DROPS"
+        "DROPS",
+        "OPS",
+        "DISTANCE"
       ],
       "default": "NORMAL"
     },

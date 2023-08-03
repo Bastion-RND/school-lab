@@ -11,7 +11,7 @@
       "unit": " В",
       "title": "Напряжение",
       "range": {
-       "list": [
+        "list": [
           {
             "min": -2.0,
             "max": 2.0,
@@ -84,7 +84,11 @@
         "current",
         "measurements"
       ],
-      "yAxisIndex": 0
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
     },
     {
       "title": null,
@@ -94,7 +98,11 @@
         "current",
         "measurements"
       ],
-      "yAxisIndex": 1
+      "yAxisIndex": 1,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
     }
   ]
 }
