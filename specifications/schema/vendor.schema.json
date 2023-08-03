@@ -4,7 +4,7 @@
   "title": "Vendor specifications",
   "description": "School Laboratory vendor specifications",
   "type": "object",
-  "$defs": {
+  "$definitions": {
     "uuid": {
       "type": "string",
       "minLength": 36,
@@ -29,7 +29,7 @@
           "maxLength": 36
         },
         "description": {
-          "$ref": "#/$defs/description"
+          "$ref": "#/$definitions/description"
         },
         "color": {
           "type": "string"
@@ -53,27 +53,30 @@
   },
   "properties": {
     "uuid": {
-      "$ref": "#/$defs/uuid"
+      "$ref": "#/$definitions/uuid"
     },
     "title": {
-      "$ref": "#/$defs/title"
+      "$ref": "#/$definitions/title"
+    },
+    "titleLatin": {
+      "$ref": "#/$definitions/title"
     },
     "target": {
       "type": "string",
       "description": "This property is needed to service of update"
     },
     "description": {
-      "$ref": "#/$defs/description"
+      "$ref": "#/$definitions/description"
     },
     "vendor": {
       "description": "Vendor information",
       "type": "object",
       "properties": {
         "title": {
-          "$ref": "#/$defs/title"
+          "$ref": "#/$definitions/title"
         },
         "description": {
-          "$ref": "#/$defs/description"
+          "$ref": "#/$definitions/description"
         },
         "logo": {
           "type": "string"
@@ -95,7 +98,7 @@
       "patternProperties": {
         "^[a-zA-Zа-яА-Я0-9 ]+$": {
           "type": "object",
-          "$ref": "#/$defs/vendorLab"
+          "$ref": "#/$definitions/vendorLab"
         }
       },
       "additionalProperties": false

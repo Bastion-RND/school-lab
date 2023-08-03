@@ -3,6 +3,7 @@
   "uuid": "a591ab7c-260d-4875-8a9f-224b7f8421cf",
   "target": "znaykalab",
   "title": "ЗнайкаЛАБ",
+  "titleLatin": "ZnaykaLAB",
   "description": "ЗнайкаЛАБ - программно-аппаратный комплекс, для проведения лабораторных испытаний",
   "vendor": {
     "title": "Познайкино",
