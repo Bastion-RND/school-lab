@@ -3,7 +3,7 @@
   "uuid": "00005105-0000-1000-8000-00805f9b34fb",
   "title": "Экология",
   "advName": "Ecology #",
-  "moduleName": "lib.laboratories.Ecology",
+  "moduleName": "ECOLOGY",
   "sensors": [
     {
       "description": "Температура воздуха",

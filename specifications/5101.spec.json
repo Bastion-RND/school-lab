@@ -3,7 +3,7 @@
   "uuid": "00005101-0000-1000-8000-00805f9b34fb",
   "title": "Физика",
   "advName": "Physics #",
-  "moduleName": "lib.laboratories.Physics",
+  "moduleName": "PHYSICS",
   "sensors": [
     {
       "description": "Напряжение",
