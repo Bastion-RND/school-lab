@@ -3,7 +3,7 @@
   "uuid": "00005104-0000-1000-8000-00805f9b34fb",
   "title": "Физиология",
   "advName": "Physiology #",
-  "moduleName": "lib.laboratories.Physiology",
+  "moduleName": "PHYSIOLOGY",
   "sensors": [
     {
       "description": "Уровень освещенности",

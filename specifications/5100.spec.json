@@ -5,7 +5,7 @@
   "disabled": true,
   "title": "Dummy lab",
   "advName": "Dummy #",
-  "moduleName": "lib.laboratories.Dummy",
+  "moduleName": "DUMMY",
   "sensors": [
     {
       "description": "Dummy sensor 1",
