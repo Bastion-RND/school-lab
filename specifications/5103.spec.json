@@ -3,7 +3,7 @@
   "uuid": "00005103-0000-1000-8000-00805f9b34fb",
   "title": "Биология",
   "advName": "Biology #",
-  "moduleName": "lib.laboratories.Chemistry",
+  "moduleName": "BIOLOGY",
   "sensors": [
     {
       "description": "Водородный показатель (pH)",

@@ -3,7 +3,7 @@
   "uuid": "00005102-0000-1000-8000-00805f9b34fb",
   "title": "Химия",
   "advName": "Chemistry #",
-  "moduleName": "lib.laboratories.Chemistry",
+  "moduleName": "CHEMISTRY",
   "sensors": [
     {
       "description": "Водородный показатель (pH)",
