@@ -1,15 +1,15 @@
 {
   "$schema": "schema/sensor.schema.json",
-  "uuid": "ba575011-eca0-11ec-8ea0-1337ac062022",
-  "description": "Двуокись углерода",
+  "uuid": "ba575c07-eca0-11ec-8ea0-1337ac062022",
+  "description": "Концентрация CO2, ЛОВ",
   "info": {
-    "title": "Концентрация CO2",
+    "title": "Концентрация CO2, ЛОВ",
     "sortOrder": -1
   },
   "yAxis": [
     {
       "unit": "ppm",
-      "title": "Двуокись углерода",
+      "title": "CO2",
       "range": {
         "list": [
           {
@@ -25,10 +25,26 @@
             "precision": 0,
             "factor": "NORMAL",
             "calibrationPointsMin": 1
+          }
+        ],
+        "defaultIndex": 0
+      }
+    },
+    {
+      "unit": "ppb",
+      "title": "ЛОВ",
+      "range": {
+        "list": [
+          {
+            "min": 0.0,
+            "max": 5000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
           },
           {
             "min": 0.0,
-            "max": 50000.0,
+            "max": 10000.0,
             "precision": 0,
             "factor": "NORMAL",
             "calibrationPointsMin": 1
@@ -48,6 +64,20 @@
         "measurements"
       ],
       "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
+    },
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 1,
       "errors": {
         "0": "Нет ошибки",
         "1": "Датчик не подключен"
