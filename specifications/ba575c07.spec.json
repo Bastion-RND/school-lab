@@ -38,22 +38,6 @@
         ],
         "defaultIndex": 0
       }
-    },
-    {
-      "unit": "°C",
-      "title": "Точка росы",
-      "range": {
-        "list": [
-          {
-            "min": -60.0,
-            "max": 40.0,
-            "precision": 1,
-            "factor": "NORMAL",
-            "calibrationPointsMin": 0
-          }
-        ],
-        "defaultIndex": 0
-      }
     }
   ],
   "value": [
@@ -86,7 +70,7 @@
       }
     },
     {
-      "title": null,
+      "title": "Точка росы",
       "options": [
         "gauge",
         "current",
