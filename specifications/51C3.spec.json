@@ -2,8 +2,8 @@
   "$schema": "schema/multisensor.schema.json",
   "uuid": "000051c3-0000-1000-8000-00805f9b34fb",
   "title": "Измеритель углекислого газа",
-  "advName": "CO2 #",
-  "moduleName": "CO2",
+  "advName": "CO2VOC #",
+  "moduleName": "CO2VOC",
   "sensors": [
     {
       "description": "Двуокись углерода",
