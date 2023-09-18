@@ -17,21 +17,21 @@
             "max": 5000.0,
             "precision": 0,
             "factor": "NORMAL",
-            "calibrationPointsMin": 1
+            "calibrationPointsMin": 0
           },
           {
             "min": 0.0,
             "max": 10000.0,
             "precision": 0,
             "factor": "NORMAL",
-            "calibrationPointsMin": 1
+            "calibrationPointsMin": 0
           },
           {
             "min": 0.0,
             "max": 50000.0,
             "precision": 0,
             "factor": "NORMAL",
-            "calibrationPointsMin": 1
+            "calibrationPointsMin": 0
           }
         ],
         "defaultIndex": 0

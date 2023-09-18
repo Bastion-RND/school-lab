@@ -9,7 +9,7 @@
   "yAxis": [
     {
       "unit": "ppm",
-      "title": "CO2",
+      "title": "Двуокись углерода",
       "range": {
         "list": [
           {
@@ -17,14 +17,21 @@
             "max": 5000.0,
             "precision": 0,
             "factor": "NORMAL",
-            "calibrationPointsMin": 1
+            "calibrationPointsMin": 0
           },
           {
             "min": 0.0,
             "max": 10000.0,
             "precision": 0,
             "factor": "NORMAL",
-            "calibrationPointsMin": 1
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 0.0,
+            "max": 50000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
           }
         ],
         "defaultIndex": 0
@@ -32,7 +39,7 @@
     },
     {
       "unit": "ppb",
-      "title": "ЛОВ",
+      "title": "Летучие органические вещества",
       "range": {
         "list": [
           {
@@ -40,14 +47,21 @@
             "max": 5000.0,
             "precision": 0,
             "factor": "NORMAL",
-            "calibrationPointsMin": 1
+            "calibrationPointsMin": 0
           },
           {
             "min": 0.0,
             "max": 10000.0,
             "precision": 0,
             "factor": "NORMAL",
-            "calibrationPointsMin": 1
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 0.0,
+            "max": 50000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
           }
         ],
         "defaultIndex": 0
