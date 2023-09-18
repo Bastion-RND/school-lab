@@ -25,6 +25,13 @@
             "precision": 0,
             "factor": "NORMAL",
             "calibrationPointsMin": 1
+          },
+          {
+            "min": 0.0,
+            "max": 50000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
           }
         ],
         "defaultIndex": 0
@@ -45,6 +52,13 @@
           {
             "min": 0.0,
             "max": 10000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 1
+          },
+          {
+            "min": 0.0,
+            "max": 50000.0,
             "precision": 0,
             "factor": "NORMAL",
             "calibrationPointsMin": 1
