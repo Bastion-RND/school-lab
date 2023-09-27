@@ -19,8 +19,7 @@
       "uuid": "5103"
     },
     "Физиология": {
-      "uuid": "5104",
-      "lifeCycle": "BETA"
+      "uuid": "5104"
     },
     "Экология": {
       "uuid": "5105",
@@ -37,7 +36,8 @@
       "lifeCycle": "ALPHA"
     },
     "Датчик CO2": {
-      "uuid": "51C3"
+      "uuid": "51C3",
+      "lifeCycle": "BETA"
     }
   }
 }
