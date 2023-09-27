@@ -17,7 +17,7 @@
             "max": 3.0,
             "precision": 2,
             "factor": "MILLI",
-            "calibrationPointsMin": 1
+            "calibrationPointsMin": 0
           }
         ],
         "defaultIndex": 0
