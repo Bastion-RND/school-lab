@@ -1,21 +1,35 @@
 {
   "$schema": "schema/sensor.schema.json",
   "uuid": "ba575c07-eca0-11ec-8ea0-1337ac062022",
-  "description": "Температура, влажность, точка росы",
+  "description": "Концентрация CO2, ЛОВ",
   "info": {
-    "title": "Температура, влажность, точка росы",
+    "title": "Концентрация CO2, ЛОВ",
     "sortOrder": -1
   },
   "yAxis": [
     {
-      "unit": "°C",
-      "title": "Температура",
+      "unit": "ppm",
+      "title": "Двуокись углерода",
       "range": {
         "list": [
           {
-            "min": -40.0,
-            "max": 80.0,
-            "precision": 1,
+            "min": 0.0,
+            "max": 5000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 0.0,
+            "max": 10000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 0.0,
+            "max": 50000.0,
+            "precision": 0,
             "factor": "NORMAL",
             "calibrationPointsMin": 0
           }
@@ -24,13 +38,27 @@
       }
     },
     {
-      "unit": "%",
-      "title": "Относительная влажность",
+      "unit": "ppb",
+      "title": "Летучие органические вещества",
       "range": {
         "list": [
           {
             "min": 0.0,
-            "max": 100.0,
+            "max": 5000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 0.0,
+            "max": 10000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 0.0,
+            "max": 50000.0,
             "precision": 0,
             "factor": "NORMAL",
             "calibrationPointsMin": 0
@@ -64,20 +92,6 @@
         "measurements"
       ],
       "yAxisIndex": 1,
-      "errors": {
-        "0": "Нет ошибки",
-        "1": "Датчик не подключен"
-      }
-    },
-    {
-      "title": "Точка росы",
-      "options": [
-        "chart",
-        "gauge",
-        "current",
-        "measurements"
-      ],
-      "yAxisIndex": 0,
       "errors": {
         "0": "Нет ошибки",
         "1": "Датчик не подключен"

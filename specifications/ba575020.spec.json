@@ -1,15 +1,15 @@
 {
   "$schema": "schema/sensor.schema.json",
-  "uuid": "ba575011-eca0-11ec-8ea0-1337ac062022",
-  "description": "Двуокись углерода",
+  "uuid": "ba575020-eca0-11ec-8ea0-1337ac062022",
+  "description": "Летучие органические вещества",
   "info": {
-    "title": "Концентрация CO2",
+    "title": "Концентрация ЛОВ",
     "sortOrder": -1
   },
   "yAxis": [
     {
-      "unit": "ppm",
-      "title": "Двуокись углерода",
+      "unit": "ppb",
+      "title": "Летучие органические вещества",
       "range": {
         "list": [
           {
