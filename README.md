@@ -21,7 +21,7 @@
 [![UpdaterApp](https://img.shields.io/badge/UpdaterApp-приложение_для_программирования_и_проверки_мультисенсора-orange)](https://github.com/Bastion-RND/school-lab-device-updater-app)  
 [![UpdaterServer](https://img.shields.io/badge/UpdaterServer-сервер_для_размещения_новых_прошивок-ff69b4)](https://github.com/Bastion-RND/school_lab_updater)  
 [![FakeSensors](https://img.shields.io/badge/FakeSensors-прошивка_для_имитатора_блока_SENSORS-blue)](https://github.com/Bastion-RND/school-lab-device-fake-sensors)  
-[![OscilloscopeDevice](https://img.shields.io/badge/OscilloscopeDevice-прошивка_для_школьного_осциллографа-yellow)](https://github.com/Bastion-RND/SchoolOscilloscopeDevice)  
+[![OscilloscopeDevice](https://img.shields.io/badge/OscilloscopeDevice-прошивка_для_школьного_осциллографа-yellow)](https://github.com/Bastion-RND/school-oscilloscope-device)  
 [![OscilloscopeApp](https://img.shields.io/badge/OscilloscopeApp-приложение_для_школьного_осциллографа-9cf)](https://github.com/Bastion-RND/SchoolSimpleScope)
 ***
 ## Для внешних разработчиков
