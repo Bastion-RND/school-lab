@@ -34,8 +34,7 @@
       "title": "ЧСС",
       "options": [
         "gauge",
-        "minmax",
-        "pulse"
+        "minmax"
       ],
       "yAxisIndex": 0,
       "errors": {
