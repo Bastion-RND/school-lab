@@ -188,6 +188,13 @@
       },
       "minItems": 1
     },
+    "stage": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
     "value": {
       "type": "array",
       "items": {
