@@ -3,7 +3,7 @@
   "uuid": "ba575014-eca0-11ec-8ea0-1337ac062022",
   "description": "Уровень шума",
   "info": {
-    "title": "Шум",
+    "title": "Уровень шума",
     "sortOrder": -1
   },
   "yAxis": [
@@ -15,7 +15,7 @@
           {
             "min": 0.0,
             "max": 2.0,
-            "precision": 0,
+            "precision": 3,
             "factor": "NORMAL",
             "calibrationPointsMin": 1
           }
