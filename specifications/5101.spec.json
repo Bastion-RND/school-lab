@@ -22,6 +22,10 @@
       "uuid": "ba575007-eca0-11ec-8ea0-1337ac062022"
     },
     {
+      "description": "Тесламер",
+      "uuid": "ba575022-eca0-11ec-8ea0-1337ac062022"
+    },
+    {
       "description": "Температура (ЩУП)",
       "uuid": "ba575001-eca0-11ec-8ea0-1337ac062022"
     },
