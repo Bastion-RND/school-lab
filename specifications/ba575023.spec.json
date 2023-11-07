@@ -1,0 +1,43 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575008-eca0-11ec-8ea0-1337ac062022",
+  "description": "Окислительно-восстановительный потенциал (Eh)",
+  "info": {
+    "title": "Окислительно-восстановительный потенциал (Eh)",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "Eh",
+      "title": "ОВП",
+      "range": {
+        "list": [
+          {
+            "min": -1.0,
+            "max":  1.0,
+            "precision": 2,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
+    }
+  ]
+}
