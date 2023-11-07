@@ -1,0 +1,60 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575005-eca0-11ec-8ea0-1337ac062022",
+  "description": "Электрическая проводимость",
+  "info": {
+    "title": "Концентрация ионов",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "ppm",
+      "title": "TDS",
+      "range": {
+        "list": [
+          {
+            "title": "1mS/500ppm",
+            "min": 0.0,
+            "max": 250000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          },
+          {
+            "title": "1mS/640ppm",
+            "min": 0.0,
+            "max": 320000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          },
+          {
+            "title": "1mS/700ppm",
+            "min": 0.0,
+            "max": 350000.0,
+            "precision": 0,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
+    }
+  ]
+}
