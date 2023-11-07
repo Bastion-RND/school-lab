@@ -7,16 +7,16 @@
     "sortOrder": -1
   },
   "yAxis": [
-    {
-      "unit": "Eh",
-      "title": "ОВП",
+   {
+      "unit": "В",
+      "title": "Eh",
       "range": {
         "list": [
           {
             "min": -0.85,
-            "max":  2.00,
-            "precision": 0,
-            "factor": "MILLI",
+            "max": 2.00,
+            "precision": 3,
+            "factor": "NORMAL",
             "calibrationPointsMin": 2
           }
         ],
