@@ -14,14 +14,14 @@
         "list": [
           {
             "min": -0.250,
-            "max":  0.250,
+            "max": 0.250,
             "precision": 1,
             "factor": "MILLI",
             "calibrationPointsMin": 2
           },
           {
             "min": -0.100,
-            "max":  0.100,
+            "max": 0.100,
             "precision": 1,
             "factor": "MILLI",
             "calibrationPointsMin": 0
@@ -30,6 +30,11 @@
         "defaultIndex": 1
       }
     }
+  ],
+  "stage": [
+    "Справочная информация. Приглашение начать измерения.",
+    "Процесс измерения",
+    "Отображение результатов измерений"
   ],
   "value": [
     {
