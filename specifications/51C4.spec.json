@@ -1,0 +1,13 @@
+{
+  "$schema": "schema/multisensor.schema.json",
+  "uuid": "000051c4-0000-1000-8000-00805f9b34fb",
+  "title": "Измеритель кислорода",
+  "advName": "O2 #",
+  "moduleName": "O2",
+  "sensors": [
+    {
+      "description": "Кислород",
+      "uuid": "ba575026-eca0-11ec-8ea0-1337ac062022"
+    }
+  ]
+}

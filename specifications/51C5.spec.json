@@ -1,0 +1,13 @@
+{
+  "$schema": "schema/multisensor.schema.json",
+  "uuid": "000051c5-0000-1000-8000-00805f9b34fb",
+  "title": "Измеритель уровня шума",
+  "advName": "NOISE #",
+  "moduleName": "NOISE",
+  "sensors": [
+ {
+      "description": "Уровень шума",
+      "uuid": "ba575014-eca0-11ec-8ea0-1337ac062022"
+    }
+  ]
+}
