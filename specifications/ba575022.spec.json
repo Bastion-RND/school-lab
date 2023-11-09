@@ -1,0 +1,48 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575022-eca0-11ec-8ea0-1337ac062022",
+  "description": "Тесламер",
+  "info": {
+    "title": "Тесламер",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "Тл",
+      "title": "Индукция магнитного поля",
+      "range": {
+        "list": [
+          {
+            "min": -0.2,
+            "max": 0.2,
+            "precision": 3,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 2
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "stage": [
+    "Справочная информация. Приглашение начать измерения.",
+    "Процесс измерения",
+    "Отображение результатов измерений"
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
+    }
+  ]
+}
