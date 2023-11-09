@@ -1,0 +1,43 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575007-eca0-11ec-8ea0-1337ac062022",
+  "description": "Датчик магнитного поля Земли {labean™}",
+  "info": {
+    "title": "Датчик магнитного поля Земли",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": " Тл",
+      "title": "Магнитное поле Земли",
+      "range": {
+        "list": [
+          {
+            "min": -0.175,
+            "max": 0.175,
+            "precision": 2,
+            "factor": "MILLI",
+            "calibrationPointsMin": 2
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
+    }
+  ]
+}
