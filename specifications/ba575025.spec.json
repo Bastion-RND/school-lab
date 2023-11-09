@@ -1,6 +1,6 @@
 {
   "$schema": "schema/sensor.schema.json",
-  "uuid": "ba575007-eca0-11ec-8ea0-1337ac062022",
+  "uuid": "ba575025-eca0-11ec-8ea0-1337ac062022",
   "description": "Датчик магнитного поля Земли {labean™}",
   "info": {
     "title": "Датчик магнитного поля Земли",

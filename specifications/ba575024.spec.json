@@ -1,6 +1,6 @@
 {
   "$schema": "schema/sensor.schema.json",
-  "uuid": "ba575005-eca0-11ec-8ea0-1337ac062022",
+  "uuid": "ba575024-eca0-11ec-8ea0-1337ac062022",
   "description": "Электрическая проводимость",
   "info": {
     "title": "Концентрация ионов",
