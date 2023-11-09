@@ -1,0 +1,55 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "ba575021-eca0-11ec-8ea0-1337ac062022",
+  "description": "Измерение силы малых постоянных электрических токов",
+  "info": {
+    "title": "Гальванометр",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "А",
+      "title": "Гальванометр",
+      "range": {
+        "list": [
+          {
+            "min": -0.250,
+            "max": 0.250,
+            "precision": 1,
+            "factor": "MILLI",
+            "calibrationPointsMin": 2
+          },
+          {
+            "min": -0.100,
+            "max": 0.100,
+            "precision": 1,
+            "factor": "MILLI",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 1
+      }
+    }
+  ],
+  "stage": [
+    "Справочная информация. Приглашение начать измерения.",
+    "Процесс измерения",
+    "Отображение результатов измерений"
+  ],
+  "value": [
+    {
+      "title": null,
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0,
+      "errors": {
+        "0": "Нет ошибки",
+        "1": "Датчик не подключен"
+      }
+    }
+  ]
+}
