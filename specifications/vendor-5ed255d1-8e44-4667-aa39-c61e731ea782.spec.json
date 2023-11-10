@@ -33,10 +33,18 @@
     },
     "Измеритель расстояния": {
       "uuid": "51C2",
-      "lifeCycle": "ALPHA"
+      "lifeCycle": "BETA"
     },
     "Датчик CO2": {
       "uuid": "51C3",
+      "lifeCycle": "BETA"
+    },
+    "Датчик O2": {
+      "uuid": "51C4",
+      "lifeCycle": "BETA"
+    },
+    "Измеритель уровня шума": {
+      "uuid": "51C5",
       "lifeCycle": "BETA"
     }
   }
