@@ -66,20 +66,16 @@
       "color": "#017BC2"
     },
     "Измеритель расстояния": {
-      "uuid": "51C2",
-      "lifeCycle": "BETA"
+      "uuid": "51C2"
     },
     "Датчик CO2": {
-      "uuid": "51C3",
-      "lifeCycle": "BETA"
+      "uuid": "51C3"
     },
     "Датчик O2": {
-      "uuid": "51C4",
-      "lifeCycle": "BETA"
+      "uuid": "51C4"
     },
     "Измеритель уровня шума": {
-      "uuid": "51C5",
-      "lifeCycle": "BETA"
+      "uuid": "51C5"
     }
   }
 }
