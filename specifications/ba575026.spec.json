@@ -14,7 +14,14 @@
         "list": [
           {
             "min": 0.0,
-            "max": 25.0,
+            "max": 100.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 10.0,
+            "max": 30.0,
             "precision": 1,
             "factor": "NORMAL",
             "calibrationPointsMin": 0
