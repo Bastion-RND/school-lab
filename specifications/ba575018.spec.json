@@ -13,9 +13,9 @@
       "range": {
         "list": [
           {
-            "min": 0.00003,
+            "min": 0.00001,
             "max": 1.0,
-            "precision": 0,
+            "precision": 5,
             "factor": "NORMAL",
             "calibrationPointsMin": 1
           }
