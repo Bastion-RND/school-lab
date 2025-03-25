@@ -2,20 +2,66 @@
   "$schema": "schema/sensor.schema.json",
   "uuid": "a3cf0271-06e1-46c7-8407-988ad944c80c",
   "description": "Температура (термопара)",
-  "info": {
+  "info":
+  {
     "title": "Температура (ЩУП)",
     "sortOrder": -1
   },
-  "yAxis": [
+  "yAxis":
+  [
     {
       "unit": "°C",
       "title": "Температура",
-      "range": {
-        "list": [
+      "range":
+      {
+        "list":
+        [
           {
             "min": -270.0,
             "max": 1372.0,
-            "precision": 2,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": -150.0,
+            "max": 0.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 0.0,
+            "max": 150.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 150.0,
+            "max": 200.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 200.0,
+            "max": 350.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 350.0,
+            "max": 500.0,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          },
+          {
+            "min": 500.0,
+            "max": 1372.0,
+            "precision": 1,
             "factor": "NORMAL",
             "calibrationPointsMin": 0
           }
@@ -24,10 +70,12 @@
       }
     }
   ],
-  "value": [
+  "value":
+  [
     {
       "title": "Термопара",
-      "options": [
+      "options":
+      [
         "chart",
         "gauge",
         "current",
