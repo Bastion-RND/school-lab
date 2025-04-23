@@ -20,6 +20,10 @@
 - Логин: `user`
 - Пароль: `fii'raz6ohL3`
 
+#### Административная панель
+
+![Административная панель](related-documents/laboratory-works/admin-panel.png)
+
 ### Порядок создания лабораторной работы
 
 1. Создание типа лабораторной работы (если отсутствует)
@@ -129,6 +133,10 @@
 - Логин: email
 - Пароль: выслан на email
 
+#### Панель учителя
+
+![Административная панель](related-documents/laboratory-works/teacher-panel.png)
+
 Возможности:
 
 - Массовое добавление учеников через `.xslx` файл
@@ -138,6 +146,18 @@
 ### Ученик
 
 > `Лабораторные работы` > `Ученик`
+
+#### Выбор лабораторной работы
+
+![Административная панель](related-documents/laboratory-works/student-selecting-laboratory-work.png)
+
+#### Отображение информации о лабораторной работе
+
+![Административная панель](related-documents/laboratory-works/student-intro.png)
+
+#### Проведение экспериментов лабораторной работы
+
+![Административная панель](related-documents/laboratory-works/student-measuring.png)
 
 Возможности:
 
