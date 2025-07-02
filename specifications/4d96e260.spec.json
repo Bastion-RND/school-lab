@@ -1,0 +1,39 @@
+{
+  "$schema": "schema/sensor.schema.json",
+  "uuid": "4d96e260-f68b-47ed-b878-671d3efe2f10",
+  "description": "Атмосферное давление",
+  "info": {
+    "title": "Атмосферное давление (встроенный)",
+    "sortOrder": -1
+  },
+  "yAxis": [
+    {
+      "unit": "Па",
+      "title": "Атмосферное давление",
+      "range": {
+        "list": [
+          {
+            "min": 30000,
+            "max": 110000,
+            "precision": 1,
+            "factor": "NORMAL",
+            "calibrationPointsMin": 0
+          }
+        ],
+        "defaultIndex": 0
+      }
+    }
+  ],
+  "value": [
+    {
+      "title": "Атмосферное давление",
+      "options": [
+        "chart",
+        "gauge",
+        "current",
+        "measurements"
+      ],
+      "yAxisIndex": 0
+    }
+  ]
+}
